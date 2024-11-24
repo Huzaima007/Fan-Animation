@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan</title>
+    <link rel="stylesheet" href="./Assets/index.css">
+</head>
+<body>
+    <h1> Fan</h1>
+    <div class="fan-container">
+        <div class="fan-blades" id="fan">
+            <div class="blade"></div>
+            <div class="blade"></div>
+            <div class="blade"></div>
+            <div class="blade"></div>
+        </div>
+    </div>
+    <label class="switch">
+        <input type="checkbox" class="cb" onclick="toggleFan(this)">
+        <span class="toggle">
+            <span class="left">OFF</span>
+            <span class="right">ON</span>
+        </span>
+    </label>
+    <script src="./Assets/app.js"></script>
+</body>
+</html>
